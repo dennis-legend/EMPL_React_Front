@@ -1,0 +1,132 @@
+.employee-list-page {
+  min-height: 100vh;
+  padding: 24px;
+  background: linear-gradient(135deg, #f9fbff 0%, #eef5ff 100%);
+}
+
+.employee-list-card {
+  max-width: 980px;
+  margin: 0 auto;
+  background: #ffffff;
+  border-radius: 16px;
+  box-shadow: 0 10px 30px rgba(15, 23, 42, 0.08);
+  padding: 24px;
+}
+
+.employee-list-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.employee-list-header h1 {
+  margin: 0 0 6px;
+  color: #1f2937;
+  font-size: 28px;
+}
+
+.employee-list-header p {
+  margin: 0;
+  color: #6b7280;
+}
+
+.back-home-link {
+  color: #2563eb;
+  font-weight: 600;
+  text-decoration: none;
+  padding: 8px 12px;
+  border-radius: 8px;
+  background: #eff6ff;
+}
+
+.back-home-link:hover {
+  background: #dbeafe;
+  text-decoration: underline;
+}
+
+.employee-list-table-wrapper {
+  overflow-x: auto;
+}
+
+.employee-list-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.employee-list-table th,
+.employee-list-table td {
+  padding: 14px 12px;
+  text-align: left;
+  border-bottom: 1px solid #e5e7eb;
+}
+
+.employee-list-table th {
+  background: #f8fafc;
+  color: #475569;
+  font-size: 13px;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+}
+
+.employee-list-table tr:hover {
+  background: #f8fbff;
+}
+
+.employee-name {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-weight: 600;
+  color: #111827;
+}
+
+.employee-avatar {
+  width: 38px;
+  height: 38px;
+  border-radius: 50%;
+  background: linear-gradient(135deg, #2563eb, #4f46e5);
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 13px;
+  font-weight: 700;
+}
+
+.employee-actions {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.action-link,
+.action-button {
+  padding: 6px 10px;
+  border-radius: 8px;
+  font-size: 13px;
+  font-weight: 600;
+  text-decoration: none;
+  border: none;
+  cursor: pointer;
+}
+
+.action-link {
+  background: #e0f2fe;
+  color: #0369a1;
+}
+
+.action-button.delete {
+  background: #fee2e2;
+  color: #b91c1c;
+}
+
+@media (max-width: 640px) {
+  .employee-list-page {
+    padding: 12px;
+  }
+
+  .employee-list-card {
+    padding: 16px;
+  }
+}

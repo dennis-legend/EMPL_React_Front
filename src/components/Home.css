@@ -1,0 +1,41 @@
+.home {
+  padding: 2rem;
+  font-family: Arial, sans-serif;
+}
+
+.home-title {
+  margin-bottom: 1rem;
+  color: #1f2937;
+}
+
+.home-nav {
+  margin-top: 1rem;
+}
+
+.home-menu {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.home-menu-item {
+  display: inline-block;
+}
+
+.home-link {
+  text-decoration: none;
+  color: #2563eb;
+  font-weight: 600;
+}
+
+.home-link:hover {
+  color: #1d4ed8;
+  text-decoration: underline;
+}
+
+ul {
+  list-style-type: none;
+  /* padding: 0; */
+}
